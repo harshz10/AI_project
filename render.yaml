@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: invoice-reimbursement-app
+    name: invoice-reimbursement
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
@@ -8,3 +8,5 @@ services:
     envVars:
       - key: GROQ_API_KEY
         value: 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
+    build:
+      pythonVersion: 3.10.13
