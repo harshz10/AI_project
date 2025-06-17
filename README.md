@@ -1,4 +1,4 @@
-# 🧾 Invoice Reimbursement System (AI/ML Internship Assignment)
+# 🧾 Invoice Reimbursement System 
 
 ## 🚀 Project Overview
 
