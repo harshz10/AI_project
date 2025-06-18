@@ -99,7 +99,7 @@ orjson==3.10.16
 overrides==7.7.0
 packaging==23.2
 pandas==2.2.3
-Pillow==9.3.0
+
 platformdirs==4.3.6
 posthog==5.0.0
 propcache==0.3.1
