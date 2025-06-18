@@ -4,6 +4,10 @@ from chatbot import query_chatbot
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {"message": "Invoice Reimbursement API is live!"}
+
 @app.post("/analyze-invoices/")
 async def analyze(policy_pdf: UploadFile, invoice_zip: UploadFile, employee_name: str = Form(...)):
     return await process_invoices(policy_pdf, invoice_zip, employee_name)
